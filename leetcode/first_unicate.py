@@ -2,6 +2,7 @@
 from collections import Counter
 
 
+# el primer caracter que no se repita
 def firstUniqChar(self, s):
     freq = Counter(s)
 
